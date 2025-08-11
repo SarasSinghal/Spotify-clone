@@ -1,0 +1,52 @@
+.border{
+    border: 2px solid black;    
+}
+.margin{
+    margin: 2px;
+}
+.flex{
+    display: flex;
+     
+}
+.justify-content{
+    justify-content: center;
+
+}
+.align{
+    align-items: center;
+}
+.invert{
+    filter: invert(1);
+}
+.rounded{
+    border-radius: 10px;
+}
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 10px;
+}
+/* Works on Chrome, Edge, Safari (WebKit browsers) */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e;  /* dark track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3a3a3a;  /* thumb color */
+  border-radius: 6px;
+  border: 2px solid #1e1e1e; /* gives padding effect */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;  /* on hover */
+}
+
+* {
+  scrollbar-width: thin;              /* auto or thin */
+  scrollbar-color: #3a3a3a #1e1e1e;   /* thumb and track */
+}
